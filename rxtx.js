@@ -29,7 +29,7 @@
         return;
       }
 
-      let view = new Uint16Array(1);
+      let view = new Uint8Array(1);
       view[0] = parseInt(redSlider.value);
       port.send(view);
     };
