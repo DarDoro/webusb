@@ -34,7 +34,7 @@
       port.send(view);
     };
 
-    redSlider.addEventListener('input', onUpdate);
+    redSlider.addEventListener('input', onUpdate); 
     
     connectButton.addEventListener('click', function() {
       if (port) {
