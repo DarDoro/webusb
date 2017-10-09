@@ -5,8 +5,6 @@
     let connectButton = document.querySelector("#connect");
     let statusDisplay = document.querySelector('#status');
     let redSlider = document.querySelector('#red');
-    let greenSlider = document.querySelector('#green');
-    let blueSlider = document.querySelector('#blue');
     let port;
 
     function connect() {
