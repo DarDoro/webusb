@@ -17,6 +17,7 @@ var serial = {};
       { 'vendorId': 0x2341, 'productId': 0x804e },
       { 'vendorId': 0x2341, 'productId': 0x804f },
       { 'vendorId': 0x2341, 'productId': 0x8050 },
+      { 'vendorId': 4292, 'productId': 60000} //CP2102 USB to UART Bridge Controller, Silicon Labs
     ];
     return navigator.usb.requestDevice({ 'filters': filters }).then(
       device => new serial.Port(device)
